@@ -1,0 +1,387 @@
+/* s t a r t  g l o b a l */
+.fixclear {
+
+    clear: both;
+}
+
+hr {
+    /* color: #4A4742;
+    height: 0.005px; */
+    margin: 8px 0px;
+}
+
+p {
+    color: #45423D;
+}
+
+li {
+    color: white;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.scontaner {
+    width: 50%;
+    margin: auto;
+}
+
+.bcontaner {
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+}
+
+.corner-contact {
+    display: inline-block;
+    width: 52%;
+    margin-top: 0;
+}
+
+.corner-img {
+    display: inline-block;
+    width: 47%;
+    height: 83vh;
+}
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+li {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+
+.corner-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.corner-contact p {
+    font-size: 17px;
+    line-height: 31.62px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.icon-p img {
+    border-radius: 50%;
+}
+
+.icon-p-line {
+    margin: 3px;
+
+}
+
+.icon-p-line p {
+    display: block;
+    width: 90%;
+    padding: 10px;
+}
+
+.who-we-are h2,
+.contact-information h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* e n d  g l o b a l */
+
+/* s t a r t  w e l c o m e */
+.welcome {
+
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    margin-bottom: 80px;
+}
+
+/* s t a r t  n a v b a r */
+.navbar {
+
+    padding: 20px 60px 5px;
+
+}
+
+.navbar li {
+    margin: 15px;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: large;
+    font-size: 18px;
+}
+
+.navbar img {
+    float: left;
+    width: 15%;
+}
+
+/* e n d  n a v b a r */
+.home {
+
+    text-align: center;
+    padding-top: 150PX;
+}
+
+.home p,
+h1 {
+    color: RGBA(255, 255, 255, 0.92);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+
+    font-size: 76px;
+    line-height: 91.2px;
+}
+
+.home p {
+    font-size: 22px;
+    line-height: 44.64px;
+    margin-bottom: 10px;
+
+}
+
+.home button {
+    margin: 15px 0px 12px 12px;
+    padding: 15px 28px;
+    border-style: solid;
+    border-radius: 5%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.1px;
+    color: white;
+}
+
+.btn1 {
+    background-color: #8E7754;
+    border-color: transparent;
+
+}
+
+.btn2 {
+    background-color: transparent;
+    border-color: white;
+}
+
+/* e n d   W e l c o m e  */
+/* s t a r t  W h o  w e  a r e */
+
+.who-we-are .corner-img img {
+    float: right;
+}
+
+.who-we-are .corner-contact {
+    float: right;
+    margin-top: 50px;
+    padding-left: 5%;
+}
+
+.who-we-are .icon-p img {
+
+    width: 8%;
+    border-style: solid;
+    border-width: 0.0005px;
+    border-color: #e0d7c6;
+}
+
+
+
+.who-we-are .icon-p-line p {
+
+    padding: 7px;
+    float: right;
+}
+
+.who-we-are .icon-p-line {
+    height: 10%;
+}
+
+
+
+/* e n d  W h o  w e  a r e  */
+/* s t a r t  O u r  L o c a t i o n */
+.our-location {
+    background-color: #F8F8F8;
+}
+
+.our-location .corner-img img {
+    float: left;
+    margin-top: 100px;
+    height: 83%;
+}
+
+.our-location .corner-contact {
+    float: left;
+    margin-top: 200px;
+    padding-right: 50px;
+
+
+}
+
+.our-location h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+/* e n d  O u r  L o c a t i o n */
+/*  s t a r t  O u r  B a k i n g  */
+.our-backing {
+    padding-top: 100px;
+}
+
+.our-backing p,
+h2 {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.our-backing h2 {
+    line-height: 41.4px;
+    font-size: 30px;
+    color: RGB(48, 48, 48);
+}
+
+.our-backing p {
+    font-size: 17px;
+    line-height: 31.62px;
+    padding-bottom: 50px;
+    color: RGB(136, 136, 136);
+}
+
+.corner-img-p-h3 {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.corner-img-p-h3 img {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* e n d  O u r  B a k i n g  */
+/* s t a r t  C o n t a c t  I n f o r m a t i o n */
+.contact-information {
+    background-color: #F8F8F8;
+    padding-top: 100px;
+}
+
+.contact-information .corner-img img {
+    float: right;
+}
+
+.contact-information .corner-contact {
+    float: left;
+    margin-top: 40px;
+    padding-right: 10%;
+}
+
+.contact-information .corner-contact .h2-p p {
+    padding-bottom: 15px;
+}
+
+.contact-information .icon-p img {
+
+    width: 7%;
+    background-color: #8E7754;
+    border-width: 0;
+}
+
+.contact-information .icon-p-line p {
+    padding: 4px;
+    float: right;
+}
+
+.contact-information .icon-p-line {
+    height: 8.5%;
+}
+
+/* e n d  C o n t a c t  I n f o r m a t i o n */
+/* s t a r t  e n d  */
+.end {
+    background-color: #403D38;
+    padding: 50px 0px;
+    margin-bottom: 0;
+    height: 70vh;
+
+}
+
+.end li,
+p {
+    color: rgba(150, 150, 150, 1);
+    font-size: 16px;
+    line-height: 29.76px;
+    list-style-type: none;
+}
+
+.end h4 {
+    font-size: 18px;
+    line-height: 24.84px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.section4 {
+    width: 25%;
+    float: left;
+    padding: 7px;
+}
+
+.Contact-Details {
+    background-image: url(./images/contact-details-map.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* e n d   e n d */
+/* s t a r t  B a k e r y   */
+
+.Bakery {
+    background-color: #353330;
+    height: 50vh;
+}
+
+.connection img {
+    width: 3%;
+    background-color: #403D38;
+    border-width: 0;
+    margin: auto;
+}
+
+.Bakerycontaner {
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+
+.Bakerycontaner img,
+p {
+    margin-bottom: 20px;
+}
+
+/* e n d B a k e r y   */
